@@ -143,7 +143,7 @@ class MainActivity : ComponentActivity() {
                     val functions = Functions(appWriteClient)
 
                     val response = functions.createExecution(
-                        functionId = "63b52202d0f19ffc2478",
+                        functionId = "63b52202d0f19ffc2478",  // helloworld
                         data = mapOf("name" to "param + ${UUID.randomUUID()}").toJson(),
                         async = false
                     )
